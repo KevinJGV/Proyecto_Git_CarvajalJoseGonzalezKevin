@@ -12,7 +12,7 @@ def modulo_ciudades():
     if opcion==1:
         crear_ciudad(datos_ciudades)
     elif opcion==2:
-        None
+        modificar_ciudad(datos_ciudades)
     elif opcion==0:
         return None
         
@@ -30,5 +30,39 @@ def crear_ciudad(datos_ciudades):
                            "poblacion_estimada":poblacion,
                            "pais":pais})
     guardar_datos(datos_ciudades,RUTA_CIUDADES)
+    
+def modificar_ciudad(datos_ciudades):
+    lista_ciudades=[]
+    numero_ciudad=1
+    print("Las ciudades guardadas son: ")
+    for i in datos_ciudades:
+        lista_ciudades.append(i["nombre"])
+        print(f"{numero_ciudad}- "+str(i["nombre"]))
+        numero_ciudad+=1
+    
+    ciudad_nombre=int(input("Ingrese el numero de la ciudad que desea modificar\n >> "))
+    ciudad_nombre=lista_ciudades[ciudad_nombre-1]
+    
+    print("\nLos datos que se tienen de las ciudades son:")
+    print("1- Nombre")
+    print("2- Còdigo postal")
+    print("3- Poblaciòn estimada")
+    print("4- Paìs")
+    lista_opciones=["nombre","codigo_postal","poblacion_estimada","pais"]
+    opcion=int(input("Ingresa la opcion que desee modificar\n>> "))
+    opcion=lista_opciones[opcion-1]
+    
+    for ciudad in datos_ciudades:
+        if ciudad["nombre"]==ciudad_nombre:
+            print(f"{ciudad_nombre} en el apartado {opcion} tiene actualmente un valor de: {ciudad[opcion]}")
+            if opcion=="codigo_postal" or opcion=="poblacion_estimada":
+                nuevo_valor=int(input("Ingrese el nuevo valor\n>> "))
+            else:
+                nuevo_valor=input("Ingrese el nuevo valor\n>> ")       
+            ciudad[opcion]=nuevo_valor
+            print("Modificacion realizada correctamente")
+            guardar_datos(datos_ciudades,RUTA_CIUDADES)
+                
+        
     
 modulo_ciudades()

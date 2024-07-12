@@ -7,6 +7,6 @@ def traer_datos(archivo):
     return datos
 
 def guardar_datos(datos,archivo):
-    datos=json.dump(datos,indent=3)
+    datos=json.dumps(datos,indent=3)
     with open(archivo,"w") as file:
         file.write(datos)
