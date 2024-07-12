@@ -26,7 +26,7 @@ def mensajes_consola(op, extra=None):
     if op == "input":
         input("Opción incorrecta, ingrese un valor/opción correctas.\n[Enter - Continuar]\n>")
     elif op == "menu":
-        print("=" * 5 + " GESTOR DE CIUDADES - KRUSTY KRAB V0.1 " + "=" * 5 + "\n1 - Visualizar Ciudades\n2 - Registrar Ciudad\n3 - Modificar Registro\n4 - Salir de Krusty Krab")
+        print("=" * 5 + " GESTOR DE CIUDADES - KRUSTY KRAB V0.1 " + "=" * 5 + "\n1 - Visualizar Ciudades\n2 - CRUD al registro\n3 - Salir de Krusty Krab")
     elif op == "ciudades":
         print("> PENDIENTE" + "\n1 - Visilizar ciudades\n2 - Registrar ciudad\n3 - Modificar registro\n4 - Salir de Krusty Krab")
     elif op == "ver_registro":
