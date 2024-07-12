@@ -62,7 +62,40 @@ def modificar_ciudad(datos_ciudades):
             ciudad[opcion]=nuevo_valor
             print("Modificacion realizada correctamente")
             guardar_datos(datos_ciudades,RUTA_CIUDADES)
-                
-        
+
+def buscar_ciudades(datos_ciudades):
+    print("Busqueda por:")
+    print("1- Nombre")
+    print("2- Pais")
+    print("3- Codigo postal")
+    lista_opciones=["nombre","pais","codigo_postal"]
+    opcion=int(input("Ingrese el metodo de busqueda de ciudad que desea realizar\n>> "))
+    opcion=lista_opciones[opcion-1]
     
-modulo_ciudades()
+    
+    dato=input(f"Ingresa el {opcion} por el que deseas buscar\n>> ")
+
+    print(f"*Ciudades con {opcion} igual a {dato}: ")
+    encontrado=False
+    for ciudad in datos_ciudades:
+        try:
+            dato=dato.lower()
+            ciudad[opcion]=ciudad[opcion].lower()
+        except:
+            dato=int(dato)
+        if ciudad[opcion] == dato:
+            encontrado=True
+            print("******************************")
+            print("Nombre: "+ ciudad["nombre"])
+            print("Codigo_postal: "+ str(ciudad["codigo_postal"]))
+            print("Poblacion estimada: "+ str(ciudad["poblacion_estimada"]))
+            print("Pais: "+ ciudad["pais"])
+            print("******************************")
+    
+    if encontrado==False:
+        print(f"No se encontro alguna ciudad con {opcion} que sea {dato}")
+
+datos_ciudades=traer_datos(RUTA_CIUDADES)        
+buscar_ciudades(datos_ciudades)
+
+# modulo_ciudades()
