@@ -1,13 +1,13 @@
 [
     {
-        "nombre":"piedecuesta",
+        "nombre":"Piedecuesta",
         "codigo_postal":1125,
         "poblacion_estimada":5000,
         "pais":"colombia"
     },
     {
-        "nombre":"piedecuesta",
-        "codigo_postal":1125,
+        "nombre":"Bucaramanga",
+        "codigo_postal":2215,
         "poblacion_estimada":5000,
         "pais":"colombia"
     }
