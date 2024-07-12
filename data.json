@@ -1,20 +1,68 @@
 [
-   {
-      "nombre": "Piedecuesta",
-      "codigo_postal": 1125,
-      "poblacion_estimada": 5000,
-      "pais": "colombia"
-   },
-   {
-      "nombre": "Bucaramanga",
-      "codigo_postal": 2215,
-      "poblacion_estimada": 50000,
-      "pais": "colombia"
-   },
-   {
-      "nombre": "nuevaciudad",
-      "codigo_postal": 55555,
-      "poblacion_estimada": 11111,
-      "pais": "mexico"
-   }
+    {
+        "nombre":"Piedecuesta",
+        "codigo_postal":1125,
+        "poblacion_estimada":50200,
+        "pais":"colombia"
+    },
+    {
+        "nombre":"Bucaramanga",
+        "codigo_postal":2215,
+        "poblacion_estimada":602500,
+        "pais":"colombia"
+    },
+    {
+        "nombre":"Cartagena",
+        "codigo_postal":2213,
+        "poblacion_estimada":525000,
+        "pais":"colombia"
+    },
+    {
+        "nombre":"Perromanga",
+        "codigo_postal":2215,
+        "poblacion_estimada":785000,
+        "pais":"colombia"
+    },
+    {
+        "nombre":"Burromanga",
+        "codigo_postal":2215,
+        "poblacion_estimada":711000,
+        "pais":"colombia"
+    },
+    {
+        "nombre":"Patomanga",
+        "codigo_postal":2215,
+        "poblacion_estimada":58000,
+        "pais":"colombia"
+    },
+    {
+        "nombre":"Pitomanga",
+        "codigo_postal":2215,
+        "poblacion_estimada":998000,
+        "pais":"colombia"
+    },
+    {
+        "nombre":"Carramanga",
+        "codigo_postal":2215,
+        "poblacion_estimada":520500,
+        "pais":"colombia"
+    },
+    {
+        "nombre":"Putimanga",
+        "codigo_postal":2215,
+        "poblacion_estimada":5000,
+        "pais":"colombia"
+    },
+    {
+        "nombre":"Mitomanga",
+        "codigo_postal":2215,
+        "poblacion_estimada":5000,
+        "pais":"colombia"
+    },
+    {
+        "nombre":"Farramanga",
+        "codigo_postal":2215,
+        "poblacion_estimada":5000,
+        "pais":"colombia"
+    }
 ]
