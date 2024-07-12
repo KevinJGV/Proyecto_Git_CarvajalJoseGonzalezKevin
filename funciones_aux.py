@@ -54,7 +54,7 @@ def ver_registro(registro):
             values = list(ciudad.values())
             fixed_values = []
             for i in values:
-                fixed_values.append(str(i()))
+                fixed_values.append(str(i))
             line = " | ".join(fixed_values) + "\n"
             current_page += line
         print(current_page)
