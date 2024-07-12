@@ -95,7 +95,3 @@ def buscar_ciudades(datos_ciudades):
     if encontrado==False:
         print(f"No se encontro alguna ciudad con {opcion} que sea {dato}")
 
-datos_ciudades=traer_datos(RUTA_CIUDADES)        
-buscar_ciudades(datos_ciudades)
-
-# modulo_ciudades()

@@ -1,14 +1,20 @@
 [
-    {
-        "nombre":"Piedecuesta",
-        "codigo_postal":1125,
-        "poblacion_estimada":5000,
-        "pais":"colombia"
-    },
-    {
-        "nombre":"Bucaramanga",
-        "codigo_postal":2215,
-        "poblacion_estimada":5000,
-        "pais":"colombia"
-    }
+   {
+      "nombre": "Piedecuesta",
+      "codigo_postal": 1125,
+      "poblacion_estimada": 5000,
+      "pais": "colombia"
+   },
+   {
+      "nombre": "Bucaramanga",
+      "codigo_postal": 2215,
+      "poblacion_estimada": 50000,
+      "pais": "colombia"
+   },
+   {
+      "nombre": "nuevaciudad",
+      "codigo_postal": 55555,
+      "poblacion_estimada": 11111,
+      "pais": "mexico"
+   }
 ]
