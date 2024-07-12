@@ -1,10 +1,9 @@
 import json
-import csv
 
 def traer_datos(archivo):
-    with open(archivo,"r") as file:
+    with open(archivo,"r", encoding="utf-8") as file:
         datos=json.load(file)
-    return datos
+        return datos
 
 def guardar_datos(datos,archivo):
     datos=json.dump(datos,indent=3)
