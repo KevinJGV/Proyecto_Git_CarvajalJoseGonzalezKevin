@@ -32,6 +32,7 @@ Puedes consultar la [documentación oficial de Python sobre la instalación en p
 El proyecto utiliza las siguientes bibliotecas estándar de Python, que no necesitan instalación adicional ya que vienen incluidas con Python:
 
 - `json`: Para trabajar con datos en formato JSON.
+- `so`: Para actuar sobre la terminal.
 
 ## Construido con 🛠️
 
