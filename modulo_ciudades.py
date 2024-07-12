@@ -24,7 +24,6 @@ def crear_ciudad(datos_ciudades):
     poblacion=int(input("Poblacion estimada:   \n>> "))
     pais=input("Pais al que pertenece:   \n>> ")
     
-    datos_ciudades.append("hola")
     datos_ciudades.append({"nombre":nombre,
                            "codigo_postal":postal,
                            "poblacion_estimada":poblacion,
