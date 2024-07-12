@@ -1,1 +1,14 @@
-
+[
+    {
+        "nombre":"piedecuesta",
+        "codigo_postal":1125,
+        "poblacion_estimada":5000,
+        "pais":"colombia"
+    },
+    {
+        "nombre":"piedecuesta",
+        "codigo_postal":1125,
+        "poblacion_estimada":5000,
+        "pais":"colombia"
+    }
+]
