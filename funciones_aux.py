@@ -1,8 +1,5 @@
 import os
 
-# Limpiar la consola
-os.system("clear")
-
 def val_int(valor):
     while True:
         try:

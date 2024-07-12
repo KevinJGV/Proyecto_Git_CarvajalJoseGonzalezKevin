@@ -1,5 +1,5 @@
 from datos import *
-
+import funciones_aux
 RUTA_CIUDADES="data.json"
 
 
@@ -93,4 +93,4 @@ def buscar_ciudades(datos_ciudades):
     
     if encontrado==False:
         print(f"No se encontro alguna ciudad con {opcion} que sea {dato}")
-
+    input("\n[Enter - Volver]")
