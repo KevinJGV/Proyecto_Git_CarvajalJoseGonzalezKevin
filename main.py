@@ -25,4 +25,6 @@ while True:
             modulo_ciudades.buscar_ciudades(registro)
         else:
             print("Debias escoger una de las opciones dadas")
-            
+    else:
+        print("> Bai ;)")
+        break
